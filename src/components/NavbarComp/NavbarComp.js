@@ -12,10 +12,10 @@ import "./NavbarComp.css";
 class NavbarComp extends Component {
   render() {
     return (
-      <div className="my-12">
+      <div className="my-8">
         <Navbar bg="dark" expand="lg" variant="dark" fixed="top">
           <Container fluid>
-            <Navbar.Brand href="home">
+          <Navbar.Brand href="home">
               <img
                 src="./cropped-favicon.png"
                 width="30"

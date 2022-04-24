@@ -45,28 +45,28 @@
   },
  
   {
-    "_id": 8,
+    "_id": 7,
     "name": "PINE BONSAI TREES",
     "price": 94,
     "img": "/images/ImgData/PINE-BONSAI.jpg",
-    "inf0": "‘Pines are some of the most common bonsai to be seen. They tend to be a good start for the beginner,’ says MacKenzie. \n\n    Pine trees are evergreen, and fall into the category of either being single or multi-flush, meaning they have more than one growth flush in a year. Japanese red and black pines are examples that experience two growth flushes, and need pruning in summer to encourage new growth and balance the new and old shoots.\n    \n    Japanese white pines, mugo pines and Scots pines are mountain pines evocative of rugged landscapes. They are slow growing, and need pruning with caution.\n    \n    In general, you need to understand the specifics of pruning pine bonsai trees, as the technique differs depending on the variety you have. However, once you known how to prune them, pine trees tend to do very well. Position in full sun, and take care not to overwater."
+    "inf0": " ‘Pines are some of the most common bonsai to be seen. They tend to be a good start for the beginner,’ says MacKenzie. \n\n    Pine trees are evergreen, and fall into the category of either being single or multi-flush, meaning they have more than one growth flush in a year. Japanese red and black pines are examples that experience two growth flushes, and need pruning in summer to encourage new growth and balance the new and old shoots.\n    \n    Japanese white pines, mugo pines and Scots pines are mountain pines evocative of rugged landscapes. They are slow growing, and need pruning with caution.\n    \n    In general, you need to understand the specifics of pruning pine bonsai trees, as the technique differs depending on the variety you have. However, once you known how to prune them, pine trees tend to do very well. Position in full sun, and take care not to overwater."
   },
   {
-    "_id": 9,
+    "_id": 8,
     "name": "CARMONA BONSAI",
     "price": 69,
     "img": "/images/ImgData/CARMONA-BONSAI.jpg",
     "info": "‘Also known as the fukien tea, the carmona bonsai is renowned not just for its ability to flourish indoors, but also for its small white flowers, which can bloom all year, as well as the crimson fruit it produces,’ says Nikitia, founder of Mit City Farm. ‘I think it is the ideal option for beginners.’\n\n    While the carmona bonsai thrives in bright light indoors, it's also a good idea to give it some time outside in the spring and early summer.\n    \n    Keep the soil moist but not soaked, fertilize regularly in the growing season, and keep on top of trimming."
   },
   {
-    "_id": 10,
+    "_id": 9,
     "name": "BALD CYPRESS BONSAI TREE",
     "price": 24,
     "img": "/images/ImgData/BALD-CYPRES-BONSAI2.jpg",
     "inf0": "‘The bald cypress bonsai tree can live for a very long time – there are even some reputed to be more than 1,000 years old,’ says Pierce.\n\n    Cypress bonsai trees have almost fern-like small needled leaves that turn a lovely deep shade in the fall. They require a lot of light and warmth and need to be positioned in a sunny spot. However, they don’t tolerate frost. \n    \n    ‘Bald cypresses are used to very wet climates, so they need to be watered every day, and they grow really quickly, which means they need to be repotted quite often,’ adds Pierce."
   },
   {
-    "_id": 7,
+    "_id": 10,
     "name": "SATSUKI AZALEA",
     "price": 37,
     "img": "/images/ImgData/SATSUKI-AZALEA.jpg",
