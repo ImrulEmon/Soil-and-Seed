@@ -6,10 +6,9 @@ import {
   FormControl,
   Nav,
   Navbar,
-  NavDropdown,
 } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-
+import './NavbarComp.css';
 class NavbarComp extends Component {
   render() {
     return (
@@ -33,10 +32,10 @@ class NavbarComp extends Component {
                 style={{ maxHeight: "100px" }}
                 navbarScroll
               >
-                <Nav.Link href="/home">Home</Nav.Link>
-                <Nav.Link href="/services">Services</Nav.Link>
-                <Nav.Link href="/about">About</Nav.Link>
-                <Nav.Link href="#">Custom</Nav.Link>
+                <NavLink className='nav-style mx-lg-3' to="/home">Home</NavLink>
+                <NavLink className='nav-style mx-lg-3' to="/services">Services</NavLink>
+                <NavLink className='nav-style mx-lg-3' to="/about">About</NavLink>
+                <NavLink className='nav-style mx-lg-3' to="#">Custom</NavLink>
               </Nav>
               <Form className="d-flex">
                 <FormControl

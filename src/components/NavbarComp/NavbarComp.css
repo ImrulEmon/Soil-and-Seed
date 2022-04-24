@@ -1,0 +1,12 @@
+.nav-style{
+    text-decoration: none;
+    color: white;
+    margin: auto auto;
+    padding: 2%;
+}
+.nav-style:hover{
+    color: green;
+    font-weight: bolder;
+    border: 1px solid white;
+    padding: 2%;
+}

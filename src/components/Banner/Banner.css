@@ -1,0 +1,21 @@
+.banner{
+    background-image: url('../../../public/images/cats-7122943.png');
+    background-repeat: no-repeat;
+    height: 520px;
+    background-position: center;
+}
+.text-shadow{
+    color: #333;
+  -webkit-text-stroke: 1px #282828;
+  text-shadow: 0px 4px 4px #282828;
+}
+.two{
+    color: rgb(69, 135, 223);
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+}
+.one{
+    color: #00960c;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+}

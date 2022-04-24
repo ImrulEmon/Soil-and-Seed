@@ -7,7 +7,6 @@ import {
   Route
 } from "react-router-dom";
 import Home from './components/Home/Home';
-import Header from './components/Header/Header';
 import About from './components/About/About';
 import Services from './components/Services/Services';
 import Error404 from './components/Error404/Error404';
@@ -17,7 +16,6 @@ function App() {
     <div className="App">
       <Router>
         <NavbarComp></NavbarComp>
-        <Header></Header>
           <Routes>
             <Route exact path='/' element={<Home />}></Route>
             <Route path='/home' element={<Home />}></Route>
