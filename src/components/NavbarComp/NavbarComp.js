@@ -13,7 +13,7 @@ class NavbarComp extends Component {
   render() {
     return (
       <div>
-        <Navbar bg="dark" expand="lg" variant="dark">
+        <Navbar bg="dark" expand="lg" variant="dark" fixed="top">
           <Container fluid>
             <Navbar.Brand href="home">
               <img

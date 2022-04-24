@@ -1,13 +1,37 @@
-import React from 'react';
-
+import React from "react";
+import "./Tree.css";
 const Tree = (props) => {
-    const {_id,name,price,img,info}=props.tree;
-    return (
-        <div>
-            <img src={img} alt="" />
-            <h1>Name : {name}</h1>
+  const { _id, name, price, img, info } = props.tree;
+  return (
+    <div>
+      <div class="rounded overflow-hidden shadow-lg">
+        <img className="card-img img-fluid" src={img} alt="" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">
+            <span className="learn">Learn To Grow</span> <br />{" "}
+            <span className="text-xl italic border-l-emerald-600 name">{name}</span>
+          </div>
+          {/* <p class="text-gray-700 text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus quia, Nonea! Maiores et perferendis eaque,
+            exercitationem praesentium nihil.
+          </p> */}
+          <h4>{}</h4>
         </div>
-    );
+        <div class="px-6 pt-4 pb-2">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #bonsai
+          </span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #tree
+          </span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #gardening
+          </span>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Tree;
