@@ -15,39 +15,35 @@
   },
   {
     "_id": 3,
-    "name": "JAPANESE MAPLE TREES",
-    "price": 45,
-    "img": "/images/ImgData/JAPANESE-MAPLE .jpg",
-    "info": "‘Japanese maple trees are always the stars of the show, and along with pines tend to be a more traditional bonsai choice,’ says MacKenzie.\n\n    ‘These tend to imply the cultural history or story of size, shape and form of the bonsai. Maples usually have a nice canopy of color that is asymmetrical, but uniform.’ Indeed, Japanese maples are one of the best trees for autumn color.\n    \n    Even in bonsai form, maples are frost hardy down to 15°F (-10°C), so make a great choice for displaying on a patio. Though, if temperatures rise above 85°F (30°C), you should move them to a more sheltered spot to avoid leaf damage.\n    \n    Water daily in warmer weather, and prune year round as and when needed. Repot every two years."
-  },
-  {
-    "_id": 4,
     "name": "CHINESE ELM",
     "price": 74,
     "img": "/images/ImgData/CHINESE-ELM.jpg",
     "info": "Popular with beginner bonsai growers, the Chinese elm is well-proportioned with an attractive woodland tree appearance and small leaves. \n\n    ‘Chinese elm bonsai trees come in several different varieties and fall under the “windswept” bonsai category because they require lots of air flow around their branches and leaves,’ says Lindsey Hyland, founder of Urban Organic Yield.\n    \n    ‘It's a hardy plant that can handle many different climates, but requires more frequent watering than other bonsais.’\n    \n    The Chinese elm bonsai is ideally suited to growing indoors, but can be placed in the garden over the summer. It needs frequent fertilizing and regular trimming to keep it in good shape."
   },
   {
-    "_id": 5,
-    "name": "SATSUKI AZALEA",
-    "price": 37,
-    "img": "/images/ImgData/SATSUKI-AZALEA.jpg",
-    "info": "‘My personal favorite bonsai tree types are the flowering varieties such as satsuki azaleas,’ says Jin. ‘They look great when they blossom and I enjoy the changes with every season that they have to offer.’\n\n    As well as satsuki azaleas, there are also other varieties available. 'Azalea bonsai trees are absolutely gorgeous and they add an element of color to any space. This type can be either pink, red, or white,' says botanist Hannah Pierce.\n    \n    Azalea bonsai trees love the sun, but in the high summer sun will benefit from some shade. They can withstand frost down to 40°F (-5°C).\n    \n    As azaleas like acidic soil, it is important not to water them with tap water, as it can affect the pH balance of the soil – stick to rainwater. Keep the soil moist and feed with an azalea fertilizer weekly in the growing season.\n    \n    Prune the lower branches harder than those at the top, and remove faded blooms immediately after flowering."
+    "_id": 4,
+    "name": "JAPANESE MAPLE TREES",
+    "price": 45,
+    "img": "/images/ImgData/JAPANESE-MAPLE .jpg",
+    "info": "‘Japanese maple trees are always the stars of the show, and along with pines tend to be a more traditional bonsai choice,’ says MacKenzie.\n\n    ‘These tend to imply the cultural history or story of size, shape and form of the bonsai. Maples usually have a nice canopy of color that is asymmetrical, but uniform.’ Indeed, Japanese maples are one of the best trees for autumn color.\n    \n    Even in bonsai form, maples are frost hardy down to 15°F (-10°C), so make a great choice for displaying on a patio. Though, if temperatures rise above 85°F (30°C), you should move them to a more sheltered spot to avoid leaf damage.\n    \n    Water daily in warmer weather, and prune year round as and when needed. Repot every two years."
   },
+ 
+  
   {
-    "_id": 6,
+    "_id": 5,
     "name": "BIRCH BONSAI TREES",
     "price": 45,
     "img": "/images/ImgData/BIRCH-BONSAI.jpg",
     "info": "I love seeing birch trees displayed as bonsai – some of my favorites have been displayed as a grove, which looks and feels like a tiny woodland vignette,’ says MacKenzie. \n\n    ‘I have seen them at 3-4 feet in height. The bark becomes the statement, and is a storyboard to the imagination.’\n    \n    Birch bonsai trees are frost hardy, so ideal for the garden. They thrive in the sun and need a lot of watering in the summer. However, as with most bonsai trees, they do not like the soil to be waterlogged.\n    \n    You will need to repot your birch bonsai every few years, and prune regularly but with a light touch, as large cuts can cause wood rot."
   },
   {
-    "_id": 7,
+    "_id": 6,
     "name": "JUNIPER BONSAI",
     "price": 100,
     "img": "/images/ImgData/JUNIPER-BONSAI.jpg",
     "info": "Juniper bonsai trees are widely available, and make an ideal choice for beginners.\n\n    ‘Two of the more popular types are the Chinese juniper and the Japanese shimpaku,’ says Wilcox. ‘Both have scale-like foliage, and their colors range from a yellowish green to a blueish green.’\n    \n    Another popular type is the Japanese needle juniper. ‘This type is an evergreen with both male and female reproductive parts so that it can pollinate itself,’ says Hyland. ‘The needles on this type of bonsai are stiff and thick, giving the tree a distinct look for any home or office.’\n    \n    Juniper bonsai trees grow best in bright light in a humid environment, and can be misted regularly without the threat of fungal infections. Allow the soil to dry out slightly in-between waterings.\n    \n    ‘The juniper can go years without being repotted,’ adds Wilcox. ‘Be careful not to damage the root system when transporting it to a new pot.’"
   },
+ 
   {
     "_id": 8,
     "name": "PINE BONSAI TREES",
@@ -66,8 +62,15 @@
     "_id": 10,
     "name": "BALD CYPRESS BONSAI TREE",
     "price": 24,
-    "img": "/images/ImgData/BALD-CYPRESS-BONSAI .jpg",
+    "img": "/images/ImgData/BALD-CYPRES-BONSAI2.jpg",
     "inf0": "‘The bald cypress bonsai tree can live for a very long time – there are even some reputed to be more than 1,000 years old,’ says Pierce.\n\n    Cypress bonsai trees have almost fern-like small needled leaves that turn a lovely deep shade in the fall. They require a lot of light and warmth and need to be positioned in a sunny spot. However, they don’t tolerate frost. \n    \n    ‘Bald cypresses are used to very wet climates, so they need to be watered every day, and they grow really quickly, which means they need to be repotted quite often,’ adds Pierce."
+  },
+  {
+    "_id": 7,
+    "name": "SATSUKI AZALEA",
+    "price": 37,
+    "img": "/images/ImgData/SATSUKI-AZALEA.jpg",
+    "info": "‘My personal favorite bonsai tree types are the flowering varieties such as satsuki azaleas,’ says Jin. ‘They look great when they blossom and I enjoy the changes with every season that they have to offer.’\n\n    As well as satsuki azaleas, there are also other varieties available. 'Azalea bonsai trees are absolutely gorgeous and they add an element of color to any space. This type can be either pink, red, or white,' says botanist Hannah Pierce.\n    \n    Azalea bonsai trees love the sun, but in the high summer sun will benefit from some shade. They can withstand frost down to 40°F (-5°C).\n    \n    As azaleas like acidic soil, it is important not to water them with tap water, as it can affect the pH balance of the soil – stick to rainwater. Keep the soil moist and feed with an azalea fertilizer weekly in the growing season.\n    \n    Prune the lower branches harder than those at the top, and remove faded blooms immediately after flowering."
   },
   {
     "_id": 11,
@@ -83,4 +86,5 @@
     "img": "/images/ImgData/FLOWERING-APRICOT-BONSAI.jpg",
     "info": "Hailing from Vietnam, this yellow flowering apricot bonsai tree is truly a sight to behold, and one of the most spectacular bonsai tree types. In its native country, it is celebrated as a symbol of the new year. \n\n    However, while you would be lucky to source this particular variety, Japanese apricots with pink or white flowers can be more readily found.\n    \n    These beautiful bonsai trees are frost hardy and suited to outdoors. They flower with fragrant blooms at the end of winter, and produce fruits in the summer.\n    \n    Keep the soil moist and repot every few years."
   }
+ 
 ]

@@ -3,6 +3,8 @@ import React from 'react';
 const About = () => {
     return (
         <div>
+            <h1>Im</h1>
+            <h1>Here</h1>
             <h1>This is about</h1>
         </div>
     );

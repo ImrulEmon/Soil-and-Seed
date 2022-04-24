@@ -1,7 +1,6 @@
-.tree-img {
+.card-img {
   display: block;
-  height: 70px;
-  width: 90px;
+  
 }
 .learn {
   color: #444444;
@@ -20,4 +19,9 @@
   font-size: 24px;
   text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
     0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+.price{
+  color: #333;
+  -webkit-text-stroke: 1px #282828;
+  text-shadow: 0px 4px 4px #282828;
 }

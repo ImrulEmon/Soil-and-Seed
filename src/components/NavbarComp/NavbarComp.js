@@ -8,11 +8,11 @@ import {
   Navbar,
 } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import './NavbarComp.css';
+import "./NavbarComp.css";
 class NavbarComp extends Component {
   render() {
     return (
-      <div>
+      <div className="my-12">
         <Navbar bg="dark" expand="lg" variant="dark" fixed="top">
           <Container fluid>
             <Navbar.Brand href="home">
@@ -23,7 +23,7 @@ class NavbarComp extends Component {
                 className="d-inline-block align-top"
                 alt="React Bootstrap logo"
               />
-               Soil & Seed
+              Soil & Seed
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
@@ -32,10 +32,71 @@ class NavbarComp extends Component {
                 style={{ maxHeight: "100px" }}
                 navbarScroll
               >
-                <NavLink className='nav-style mx-lg-3' to="/home">Home</NavLink>
-                <NavLink className='nav-style mx-lg-3' to="/services">Services</NavLink>
-                <NavLink className='nav-style mx-lg-3' to="/about">About</NavLink>
-                <NavLink className='nav-style mx-lg-3' to="#">Custom</NavLink>
+                <NavLink
+                  className="nav-style mx-lg-3"
+                  to="/home"
+                  style={({ isActive }) =>
+                    isActive
+                      ? {
+                          color: "#fff",
+                          background: "#7600dc",
+                          borderRadius: "5px",
+                          fontWeight: "bold",
+                        }
+                      : { color: "white" }
+                  }
+                >
+                  Home
+                </NavLink>
+                <NavLink
+                  className="nav-style mx-lg-3"
+                  to="/services"
+                  style={({ isActive }) =>
+                    isActive
+                      ? {
+                          color: "#fff",
+                          background: "#7600dc",
+                          borderRadius: "5px",
+                          fontWeight: "bold",
+                        }
+                      : { color: "white" }
+                  }
+                >
+                  Services
+                </NavLink>
+                <NavLink
+                  className="nav-style mx-lg-3"
+                  to="/about"
+                  style={({ isActive }) =>
+                    isActive
+                      ? {
+                          color: "#fff",
+                          background: "#7600dc",
+                          borderRadius: "5px",
+                          fontWeight: "bold",
+                        }
+                      : { color: "white" }
+                  }
+                >
+                  About
+                </NavLink>
+                <NavLink
+                  to=""
+                  className="nav-style mx-lg-3"
+                  to="#"
+                  style={({ isActive }) =>
+                    isActive
+                      ? {
+                          color: "#fff",
+                          background: "#7600dc",
+                          borderRadius: "5px",
+                          fontWeight: "bold",
+                        }
+                      : { color: "white" }
+                  }
+                >
+                  Custom
+                </NavLink>
               </Nav>
               <Form className="d-flex">
                 <FormControl

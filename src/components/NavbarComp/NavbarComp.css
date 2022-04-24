@@ -5,8 +5,7 @@
     padding: 2%;
 }
 .nav-style:hover{
-    color: green;
+    color: white;
     font-weight: bolder;
-    border: 1px solid white;
-    padding: 2%;
+   
 }

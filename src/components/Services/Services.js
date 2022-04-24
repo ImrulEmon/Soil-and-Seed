@@ -9,7 +9,7 @@ const Services = () => {
       .then((data) => setTrees(data));
   }, []);
   return (
-    <div className="container">
+    <div className="container mt-24">
       <h1>Services</h1>
       <h4>{trees.length}</h4>
       <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
