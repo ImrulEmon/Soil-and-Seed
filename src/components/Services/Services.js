@@ -11,7 +11,7 @@ const Services = () => {
   return (
     <div className="container mt-24">
       <h2 className="text-6xl font-bold text-green-700 hover:text-green-800 bonsai italic">BONSAI</h2>
-      <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+      <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         {trees.map((tree) => (
           <Tree key={tree._id} tree={tree}></Tree>
         ))}
