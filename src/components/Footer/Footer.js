@@ -7,14 +7,14 @@ const Footer = () => {
             <div className='py-4 d-md-flex justify-content-md-center'>
                 <div className='mx-md-5 text-md-justify'><ul>
                     <li> <NavLink to='/home'>Home</NavLink></li>
-                    <li><NavLink to='/home'>Services</NavLink></li>
-                    <li><NavLink to='/home'>About</NavLink></li>
-                    <li><NavLink to='/home'>FAQ</NavLink></li>
+                    <li><NavLink to='/services'>Services</NavLink></li>
+                    <li><NavLink to='/about'>About</NavLink></li>
+                    <li><NavLink to=''>FAQ</NavLink></li>
                 </ul></div>
                <div className='mx-md-5 text-md-justify'>
                <ul>
-                    <li><NavLink to='/home'>Mushroom</NavLink></li>
-                    <li><NavLink to='/home'>Bonsai</NavLink></li>
+                    <li><NavLink to=''>Mushroom</NavLink></li>
+                    <li><NavLink to='/services'>Bonsai</NavLink></li>
                     <li><NavLink to='/home'>Cactus</NavLink></li>
                 </ul>
                </div>

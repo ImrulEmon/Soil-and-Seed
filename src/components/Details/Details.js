@@ -7,7 +7,7 @@ import {faArrowAltCircleLeft} from '@fortawesome/free-solid-svg-icons';
 const Details = () => {
   const { _id } = useParams();
   const [services, setServices] = useServices([]);
-  const tree = services?.find((tree) => tree._id == _id);
+  const tree = services?.find((tree) => tree._id === _id);
   console.log(tree);
 //   const {name,img,info,price}=tree;
   return (

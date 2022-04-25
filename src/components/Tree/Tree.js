@@ -5,7 +5,7 @@ import "./Tree.css";
 import { Button, SplitButton } from "react-bootstrap";
 import MyButton from "../MyButton/MyButton";
 import { useNavigate } from "react-router-dom";
-
+import HeadShake from 'react-reveal/HeadShake';
 const Tree = (props) => {
   const { _id, name, price, img, info } = props.tree;
   const nevigate = useNavigate();
@@ -15,6 +15,7 @@ const Tree = (props) => {
   }
   return (
     <div>
+        <HeadShake>
       <div class="rounded overflow-hidden shadow-lg">
         <img className="card-img img-fluid" src={img} alt="" />
         <div class="px-6 py-4">
@@ -43,6 +44,7 @@ const Tree = (props) => {
         </div>
         
       </div>
+      </HeadShake>
     </div>
   );
 };

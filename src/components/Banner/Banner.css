@@ -1,7 +1,7 @@
 .banner{
-    background-image: url('../../../public/images/cats-7122943.png');
+    background-image: url('./banner-img.jpg');
     background-repeat: no-repeat;
-    height: 520px;
+    height: 640px;
     background-position: center;
 }
 .text-shadow{
@@ -19,3 +19,13 @@
     text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
     0px -4px 10px rgba(255,255,255,0.3);
 }
+@media screen and (max-width: 850px) {
+   .banner{
+       margin-top: -193px;
+       background-image: url(./banner-img-mobile.jpg);
+       overflow-wrap: break-word;
+   }
+    /* .plant{
+       padding-top: 100px;
+   } */
+  }

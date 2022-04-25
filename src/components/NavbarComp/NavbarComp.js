@@ -21,7 +21,7 @@ class NavbarComp extends Component {
                 width="30"
                 height="30"
                 className="d-inline-block align-top"
-                alt="React Bootstrap logo"
+                alt="Soil and Seed"
               />
               Soil & Seed
             </Navbar.Brand>
