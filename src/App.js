@@ -14,6 +14,7 @@ import Error404 from './components/Error404/Error404';
 import NavbarComp from './components/NavbarComp/NavbarComp';
 import Footer from './components/Footer/Footer';
 import Details from './components/Details/Details';
+import Features from './components/Features/Features';
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,7 @@ function App() {
             <Route path='/services' element={<Services />}></Route>
             <Route path='/about' element={<About />}></Route>
             <Route path='/details/:_id' element={<Details />} />
+            <Route path='/featured' element={<Features />}></Route>
             <Route path='*' element={<Error404 />}></Route>
           </Routes>
           <Footer></Footer>

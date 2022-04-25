@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "BONSAI",
+    "img": "/images/Feature-Img/bonsai.jpg"
+  },
+  {
+    "id": 2,
+    "name": "MUSHROOM",
+    "img": "/images/Feature-Img/mushroom.jpg"
+  },
+  {
+    "id": 3,
+    "name": "CACTUS",
+    "img": "/images/Feature-Img/cactus.jpg"
+  }
+]

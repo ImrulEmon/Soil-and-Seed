@@ -1,9 +1,9 @@
 import React from 'react';
-
+import img from './Error404.jpg'
 const Error404 = () => {
     return (
         <div>
-            <h1>Error404</h1>
+            <img src={img} alt="" />
         </div>
     );
 };

@@ -19,6 +19,7 @@ const Footer = () => {
                 </ul>
                </div>
             </div>
+            <p className='py-4'>©Imrul Emon | 2022</p>
         </div>
     );
 };
